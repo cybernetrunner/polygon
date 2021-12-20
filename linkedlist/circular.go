@@ -89,4 +89,3 @@ func (ll *Circular) findFirst(n *nodeCircular, d string) (ok bool) {
 
 	return ll.findFirst(n.next, d)
 }
-
